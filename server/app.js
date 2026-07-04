@@ -8,7 +8,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://nex-round-theta.vercel.app"],
+    origin: ["http://localhost:5173", "https://nex-round.vercel.app"],
     credentials: true,
   }),
 );
