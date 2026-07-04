@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary : #5044E5;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Shared nav/button styles used by Navbar and other components */
+.nbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.pbtn {
+  background: linear-gradient(135deg, #4ADE80, #22C55E);
+  color: #ECFDF3;
+  font-weight: 700;
+  font-family: 'Sora', sans-serif;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.2s;
+  box-shadow: 0 4px 20px #4ADE8030;
+}
+
+.pbtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px #4ADE8050;
+}
+
+.obtn {
+  background: transparent;
+  color: #4ADE80;
+  border: 1.5px solid #4ADE8055;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.obtn:hover {
+  border-color: #4ADE80;
+  background: #4ADE8012;
+}

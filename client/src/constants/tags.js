@@ -1,0 +1,21 @@
+const tags = [
+  "DSA",
+  "OS",
+  "DBMS",
+  "OOPs",
+  "CN",
+  "System Design",
+  "LLD",
+  "HLD",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Machine Learning",
+  "Deep Learning",
+  "Competitive Programming",
+  "Cybersecurity",
+  "Blockchain",
+];
+export default tags.sort();
