@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import PopularCompanies from "../components/PopularCompanies";
-import ExperienceList from "../components/ExperienceList";
-import Navbar from "../components/Navbar";
+import PopularCompanies from "../Components/PopularCompanies";
+import ExperienceList from "../Components/ExperienceList";
+import Navbar from "../Components/Navbar";
 
 const JOB_TYPES = ["All", "Internship", "Full-time"];
 const RESULTS = ["All", "Selected", "Rejected"];

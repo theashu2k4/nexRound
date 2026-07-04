@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-import Navbar from "../components/Navbar";
-import HeroCard from "../components/HeroCard";
-import StatStrip from "../components/StatStrip";
-import ExperienceCard from "../components/ExperienceCard";
-import SkeletonCard from "../components/SkeletonCard";
+import Navbar from "../Components/Navbar";
+import HeroCard from "../Components/HeroCard";
+import StatStrip from "../Components/StatStrip";
+import ExperienceCard from "../Components/ExperienceCard";
+import SkeletonCard from "../Components/SkeletonCard";
 import { API_BASE, HOW_IT_WORKS } from "../constants";
 
 export default function Home() {
